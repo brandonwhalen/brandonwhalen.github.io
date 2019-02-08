@@ -11,9 +11,16 @@ function setup() {
 }
 
 function draw() {
-  background(255);
-  fill(255, 105, 180)
-  ellipse(200,200,125);
-
-  rect(mouseX, mouseY, 75, 75)
+  background(220);
+  ellipse(mouseX, mouseY, 25, 25);
+  print(mouseX)
 }
+
+function mousePressed(){
+  fill(255, 0, 0);
+
+}
+funtion mouseReleased(){
+  fill(0, 255, 0);
+}
+
